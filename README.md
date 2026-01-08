@@ -1,7 +1,7 @@
 # swaywm-dotfiles
 this is my dotfiles for swaywm idk
 
-<img width="1920" height="1080" alt="20260108_04h00m26s_grim" src="https://github.com/user-attachments/assets/fad22c8e-13e4-4026-ad2e-13931659afa9" />
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/21554698-6612-490c-bc3a-988c86bccd37" />
 
 ## **Requirements**
 
