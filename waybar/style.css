@@ -1,4 +1,3 @@
-
 * {
     border: none;
     border-radius: 0;
@@ -36,7 +35,7 @@ window#waybar {
 
 #clock.1 {
     background-color: transparent;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 @keyframes blink {
@@ -76,7 +75,7 @@ window#waybar {
 }
 
 #tray {
-    background-color: #949494;
+    background-color: #3a3a3a;
 }
 
 #idle_inhibitor {
@@ -84,13 +83,13 @@ window#waybar {
 }
 #custom-arrow1 {
 	font-size: 24px;
-	color: #949494;
-	background: #4e4e4e
+	color: #3a3a3a;
+	background: #4e4e4e;
 }
 #custom-arrow2 {
 	font-size: 24px;
 	color: #ff8700;
-	background: #949494
+	background: #3a3a3a;
 }
 #custom-arrow3 {
 	font-size: 24px;
