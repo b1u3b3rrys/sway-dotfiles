@@ -24,14 +24,15 @@
         "tooltip-format": "{:%Y-%m-%d | %H:%M}"
     },
 	"clock#2": {
-		"format": "{:%d. %B %Y}"
+		"format": "{:%d. %B %Y}",
+		 "tooltip-format": "{:%Y-%m-%d | %H:%M}"
+
 	},
     "cpu": {
         "format": "{usage}% "
     },
     "memory": {
-        "format": "{}% ",
-	"on-click": "termite -e htop"
+        "format": "{}% "
     },
     "network": {
         // "interface": "wlp2s0", // (Optional) To force the use of this interface
