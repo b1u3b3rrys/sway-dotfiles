@@ -1,5 +1,4 @@
 
-**Note:** `$mod` typically refers to the **Super / Windows key**.
 
 ## Application Launchers
 
