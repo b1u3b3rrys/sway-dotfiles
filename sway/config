@@ -9,7 +9,7 @@ set $menu wofi --show drun -i
 set $browser firefox
 set $fmanager thunar
 
-exec_always  --no-startup-id  dunst
+exec_always  --no-startup-id  mako
 
 output * bg ~/.config/sway/bg.png fill
  output eDP-1 mode 1920x1080@59.99Hz
