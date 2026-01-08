@@ -18,8 +18,8 @@ exec_always  --no-startup-id  dunst
 # Default wallpaper (requires Swaybg)
 output * bg ~/.config/sway/bg.png fill
  output eDP-1 mode 1920x1080@59.99Hz
- 
 
+ # input
   input type:keyboard {
       xkb_layout "br"
  }
@@ -36,19 +36,14 @@ output * bg ~/.config/sway/bg.png fill
      #Start firefox
     bindsym $mod+b exec $browser
 
-
-    # Drag floating windows by holding down $mod and left mouse button.
-    # Resize them with right mouse button + $mod.
-    # Despite the name, also works for non-floating windows.
-    # Change normal to inverse to use left mouse button for resizing and right
-    # mouse button for dragging.
+ # its a floater :D
     floating_modifier $mod normal
 
     # Reload the configuration file
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway?' -B 'Yes, exit sway' 'swaymsg exit'
 
     # Move your focus around
     bindsym $mod+$left focus left
@@ -125,9 +120,7 @@ output * bg ~/.config/sway/bg.png fill
     default_floating_border pixel 2
     gaps inner 3px
     gaps outer 3px
-#
-# Scratchpad:
-#
+
     # Sway has a "scratchpad", which is a bag of holding for windows.
     # You can send windows there and get them back later.
 
@@ -137,9 +130,7 @@ output * bg ~/.config/sway/bg.png fill
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
-#
-# Resizing containers:
-#
+
 mode "resize" {
     # left will shrink the containers width
     # right will grow the containers width
@@ -180,6 +171,7 @@ bindsym $mod+r mode "resize"
     # Clipboard screenshots
     bindsym Ctrl+Print exec grim -g "$(slurp)" - | wl-copy
 
+# colors
 
     set $bg     #d65d0e
     set $bg-inactive   #323232
@@ -194,9 +186,6 @@ bindsym $mod+r mode "resize"
     client.unfocused        $bg-inactive  $bg-inactive $text-inactive $bar $bar
     client.focused_inactive $bg-inactive  $bg-inactive $text-inactive $bar $bar
     client.urgent           $bg-urgent    $bg-urgent   $text          $bar $bar
-
-
-
 
 #
 # Status Bar:
