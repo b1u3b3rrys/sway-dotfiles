@@ -10,7 +10,7 @@ set $browser firefox
 set $fmanager thunar
 
 exec_always  --no-startup-id  mako
-
+exec env DISPLAY=:0 xwayland-satellite
 output * bg ~/.config/sway/bg.jpg fill
  output eDP-1 mode 1920x1080@60hz
    set $mod Mod4
