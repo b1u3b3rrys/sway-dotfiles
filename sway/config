@@ -11,8 +11,9 @@ set $fmanager thunar
 
 exec_always  --no-startup-id  mako
 exec env DISPLAY=:0 xwayland-satellite
+
 output * bg ~/.config/sway/bg.jpg fill
- output eDP-1 mode 1920x1080@60hz
+ output eDP-1 mode 1920x1080@59.99Hz
    set $mod Mod4
     bindsym $mod+t exec $term
     bindsym $mod+q kill
@@ -20,6 +21,11 @@ output * bg ~/.config/sway/bg.jpg fill
     bindsym $mod+b exec $browser
     bindsym $mod+e exec $fmanager
     floating_modifier $mod normal
+
+input * {
+	xkb_layout us,ru 
+	xkb_options grp:alt_shift_toggle
+}
 
    
     bindsym $mod+Shift+c reload
