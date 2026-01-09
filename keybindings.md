@@ -142,7 +142,7 @@ Enter resize mode:
 
 
 ## Screenshots
-
+note: they all works with Grim
 | Keybinding | Action |
 |-----------|--------|
 | `Print` | Take full-screen screenshot |
