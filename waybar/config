@@ -9,7 +9,7 @@
     "modules-right": ["custom/arrow5","pulseaudio","custom/arrow4", "clock#2", "custom/arrow3","cpu", "memory","custom/arrow1", "tray","custom/arrow2","sway/language"],
     // Modules configuration
      "sway/workspaces": {
-         "disable-scroll": true,
+         "disable-scroll": false,
          "all-outputs": false,
          "format": "{name}"
      },
