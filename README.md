@@ -1,13 +1,14 @@
 # swaywm-dotfiles
-this is my dotfiles for swaywm idk
+this is my dotfiles for swaywm, and i dont know what i should provide right here, so just look at this image
 
-<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/21554698-6612-490c-bc3a-988c86bccd37" />
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/9f6fbfa4-0673-49a1-bd73-5368b89a602d" />
+
 
 ## **Requirements**
 
 
 ```
- sway, wofi, mako, foot, fastfetch, waybar, swaybg, grim
+ sway, wofi, mako, foot, fastfetch, waybar, swaybg, grim, playerctl, xdg-desktop-portal-wlr, 
 ```
 ## **Used font in foot**
 ```
@@ -24,3 +25,5 @@ cd sway-dofiles
 cp -r * ~/.config
 ```
 ### **And everything should be done!**
+
+also can you give star on this repo pls 🥺
