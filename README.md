@@ -26,4 +26,4 @@ cp -r * ~/.config
 ```
 ### **And everything should be done!**
 
-also can you give star on this repo pls 🥺
+also can you leave star on this repo pls 🥺
