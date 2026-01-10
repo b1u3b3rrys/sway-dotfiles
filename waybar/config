@@ -4,7 +4,7 @@
     "height": 25, // Waybar height
     // "width": 1280, // Waybar width
     // Choose the order of the modules
-    "modules-left": ["sway/workspaces","custom/arrow6","sway/mode","custom/mpd"],
+    "modules-left": ["sway/workspaces","custom/arrow6","sway/mode","mpris"],
     "modules-center": ["clock#1"],
     "modules-right": ["custom/arrow5","pulseaudio","custom/arrow4", "clock#2", "custom/arrow3","cpu", "memory","custom/arrow1", "tray","custom/arrow2","sway/language"],
     // Modules configuration
@@ -56,15 +56,13 @@
         },
         "on-click": "pavucontrol"
     },
-    "custom/mpd": {
-        "format": "♪ {}",
-        "interval": 1,
-        //"max-length": 15,
-        "exec": "echo $(mpc current) – $(mpc status | awk '{print $3}' | sed -n 2p)",
-        "exec-if": "pgrep mpd",
-        "on-click-right": "mpc toggle",
-        "on-click": "termite -e ncmpcpp"
-    },
+       "mpris": {
+    	"format": "{status_icon} {artist} - {title}",
+    	"format-stopped": "",
+    	"status-icons": {
+    		"playing": "",
+    		"paused": "󰐊"
+    	},
 	"custom/arrow1": {
 		"format": ""
 	},
