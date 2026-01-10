@@ -8,11 +8,7 @@ this is my dotfiles for swaywm, and i dont know what i should provide right here
 
 
 ```
- sway, wofi, mako, foot, fastfetch, waybar, swaybg, grim, playerctl, xdg-desktop-portal-wlr, 
-```
-## **Used font in foot**
-```
-Iosevka Nerd Font Propo
+ sway, wofi, mako, foot, fastfetch, waybar, swaybg, grim, playerctl, xdg-desktop-portal-wlr, ttf-iosevka-nerd 
 ```
 
 ## **Installation**
@@ -24,6 +20,7 @@ cd sway-dofiles
 
 cp -r * ~/.config
 ```
+
 ### **And everything should be done!**
 
 also can you leave star on this repo pls 🥺
