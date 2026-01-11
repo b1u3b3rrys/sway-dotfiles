@@ -62,7 +62,8 @@
      	"status-icons": {
      		"playing": "",
      		"paused": "󰐊"
-     	},
+   		  },
+	},
 	"custom/arrow1": {
 		"format": "",
 		"tooltip": false
