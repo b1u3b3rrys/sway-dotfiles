@@ -56,29 +56,35 @@
         },
         "on-click": "pavucontrol"
     },
-       "mpris": {
-    	"format": "{status_icon} {artist} - {title}",
-    	"format-stopped": "",
-    	"status-icons": {
-    		"playing": "",
-    		"paused": "󰐊"
-    	},
+    "mpris": {
+     	"format": "{status_icon} {artist} - {title}",
+     	"format-stopped": "",
+     	"status-icons": {
+     		"playing": "",
+     		"paused": "󰐊"
+     	},
 	"custom/arrow1": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	},
 	"custom/arrow3": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	},
 	"custom/arrow4": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	},
 	"custom/arrow5": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	},
 	"custom/arrow6": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	},
 	"custom/arrow2": {
-		"format": ""
+		"format": "",
+		"tooltip": false
 	}
 }
